@@ -64,4 +64,9 @@ export default antfu({
     'test/index': 'error', // Add padding in test files, remove once https://github.com/vitest-dev/eslint-plugin-vitest/issues/509 is fixed
     'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
   },
+}, {
+  rules: {
+    'no-console': 'off',
+    'no-unused-vars': 'off',
+  },
 });
